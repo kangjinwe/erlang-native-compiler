@@ -43,7 +43,7 @@
          delete_each/1
         ]).
 
--dialyzer({no_missing_calls, escript_foldl/3}).
+%-dialyzer({no_missing_calls, escript_foldl/3}).
 
 -include("rebar.hrl").
 
